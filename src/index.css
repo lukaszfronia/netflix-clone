@@ -8,5 +8,6 @@
   box-sizing: border-box;
 }
 html {
-  background-color: black;
+  background-color: #141414;
+  font-family: "Bebas Neue", sans-serif;
 }

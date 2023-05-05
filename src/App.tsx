@@ -1,6 +1,20 @@
+import { Routes, Route } from "react-router-dom";
+
+import Navigation from "./pages/Navigation";
+import Main from "./pages/Main";
+import Movies from "./pages/Movies";
+import Serials from "./pages/Serials";
+
 function App() {
   return (
-    <h1 className="text-4xl font-bold underline text-red-800">Hello world!</h1>
+    <>
+      <Navigation />;
+      <Routes>
+        <Route path="/main" element={<Main />}></Route>
+        <Route path="/films" element={<Movies />}></Route>
+        <Route path="/serials" element={<Serials />}></Route>
+      </Routes>
+    </>
   );
 }
 
