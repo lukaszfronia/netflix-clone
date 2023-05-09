@@ -1,4 +1,4 @@
-import React from "react";
+import React, { ReactElement } from "react";
 import netflixAvatar from "../images/Netflix-avatar.png";
 import netflixLogo from "../images/netflix-logo.png";
 import { Link, useNavigate } from "react-router-dom";
@@ -28,7 +28,7 @@ const nav: Nav[] = [
   },
 ];
 
-const Navigation: React.FC<unknown> = () => {
+const Navigation = (): ReactElement => {
   const location = useLocation();
   const navigation = useNavigate();
 
