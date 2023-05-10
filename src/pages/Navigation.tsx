@@ -37,7 +37,7 @@ const Navigation = (): ReactElement => {
   };
 
   return (
-    <header className="flex gap-6 max-w-full py-1 px-12 h-auto">
+    <header className="flex gap-6 max-w-full py-1 px-12 h-auto bg-[#141414]">
       <div>
         <img
           src={netflixLogo}

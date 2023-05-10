@@ -8,7 +8,7 @@ import Serials from "./pages/Serials";
 function App() {
   return (
     <>
-      <Navigation />;
+      <Navigation />
       <Routes>
         <Route path="/" element={<Navigate to="/main" />} />
         <Route path="main" element={<Home />}></Route>
